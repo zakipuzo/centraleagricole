@@ -93,32 +93,7 @@ class Signup extends Component {
         <Helmet>
           <title>Create an account - Crate</title>
         </Helmet>
-
-        {/* Left Content - Image Collage */}
-        <GridCell>
-          <Grid gutter={true} alignCenter={true}>
-            <GridCell justifyCenter={true}>
-              <ImageTile width={300} height={530} shadow={level1} image={`${ APP_URL }/images/stock/men/1.jpg`}/>
-            </GridCell>
-
-            <GridCell>
-              <Grid>
-                <GridCell justifyCenter={true}>
-                  <ImageTile width={170} height={250} shadow={level1} image={`${ APP_URL }/images/stock/women/2.jpg`}/>
-                </GridCell>
-              </Grid>
-
-              <Grid>
-                <GridCell justifyCenter={true}>
-                  <ImageTile width={170} height={250} shadow={level1} image={`${ APP_URL }/images/stock/women/3.jpg`}
-                             style={{ marginTop: '1.9em' }}/>
-                </GridCell>
-              </Grid>
-            </GridCell>
-          </Grid>
-        </GridCell>
-
-        {/* Right Content */}
+ 
         <GridCell style={{ textAlign: 'center' }}>
           <H3 font="secondary" style={{ marginBottom: '1em' }}>Create an account</H3>
 
